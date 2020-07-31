@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button id="boton-usuarios">Enviar respuestas</button>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+
+$("#boton-usuarios").on("click",enviaRespuestas);
+
+function enviaRespuestas() {
+    
+    var ans = [];
+    ans.push("1");
+    ans.push("3");
+    ans.push("4");
+
+    $.post("http://localhost:3000/datos", {ans},function(data) {
+       //regresar el score
+    });
+}
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "express-jquery-extended",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorflores/express-jquery-extended.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorflores/express-jquery-extended/issues"
+  },
+  "homepage": "https://github.com/jorflores/express-jquery-extended#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
